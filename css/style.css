@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,300italic);
+
+html, body, .site, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato', sans-serif;
+}
+
+.jumbotron {
+	background: url('/img/screen.png') center;
+	height: 700px;
+}
+
+.jumbotron h1 {
+	text-transform: uppercase;
+	font-size: 100px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 200px;
+	color: #fff;
+}
+.jumbotron a {
+	color: #fff;
+}
+.jumbo-text {
+	color: #fff;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.jumbo-text:hover {
+	opacity: 0.5;
+}
+.header img {
+	padding: 15px;
+}
+.site-wrapper {
+	padding-bottom: 200px;
+}
+
+.footer {
+	padding: 50px;
+}
+
+.footer p {
+	margin: 0 auto 5px 0;
+}

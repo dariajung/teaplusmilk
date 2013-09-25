@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/foundation.min.css">
+        <link rel="stylesheet" href="/css/style.css">
+
+    </head>
+    <body>
+      <div class='jumbotron'>
+        <div class='jumbo-text'>
+          <a href="/"><h1>{{ site.name }}</h1>A blog by Daria and Matt.</a>
+        </div>
+      </div>
+
+      <div class='site-wrapper'>
+        <div class="site">
+          <div class="header">
+            <a class="extra" href="/"><img src='/img/tea.png'></a>
+          </div>
+
+          {{ content }}
+
+        </div>
+      </div>
+
+      <div class='footer'>
+        <p>With love, from New York City.</p>
+        <a target='_blank' href='http://github.com/dariajung'>Daria's GitHub</a> &&
+        <a target='_blank' href='http://github.com/zencephalon'>Matt's GitHub</a>
+      </div>
+
+    </body>
+</html>
