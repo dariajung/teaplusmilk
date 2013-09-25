@@ -4,9 +4,21 @@ html, body, .site, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Lato', sans-serif;
 }
 
+a {
+	color: #00a2bf;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+	color: #999;
+}
+
 .jumbotron {
 	background: url('/img/screen.png') center;
-	height: 700px;
+	height: 400px;
 }
 
 .jumbotron h1 {
@@ -14,7 +26,7 @@ html, body, .site, h1, h2, h3, h4, h5, h6 {
 	font-size: 100px;
 	text-align: center;
 	margin: 0 auto;
-	padding-top: 200px;
+	padding-top: 50px;
 	color: #fff;
 }
 .jumbotron a {
@@ -32,9 +44,17 @@ html, body, .site, h1, h2, h3, h4, h5, h6 {
 }
 .header img {
 	padding: 15px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
+.header img:hover {
+	opacity: 0.5;
+}
+
 .site-wrapper {
-	padding-bottom: 200px;
+	padding-bottom: 150px;
 }
 
 .footer {
